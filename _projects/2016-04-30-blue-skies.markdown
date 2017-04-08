@@ -1,16 +1,14 @@
 ---
 layout: project
 title:  "Struggles, Hopes, and Blue Skies"
-date:   2016-04-30 16:54:46
 author: Chen Peng
 categories:
-- project
+    - Oil on Canvas;
+    - Watercolor on Yupo
 img: portfolio_01.jpg
-carousel:
-- single01.jpg
 tagged: BFA
-website: http://blacktie.co
 ---
+<img src="{{ "/assets/img/browser.png" | prepend: site.baseurl }}" class="img-responsive">
 
 ## Artist Statement
 
