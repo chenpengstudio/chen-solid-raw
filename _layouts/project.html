@@ -7,21 +7,20 @@ layout: default
 <div class="container mt">
     <div class="row">
 
-        <div class="col-lg-7 col-lg-offset-1" style='text-align: justify;'>
+        <div class="col-lg-9" style='text-align: justify;'>
             <div class="spacing" ></div>
 
             {{ content }}
 
         </div>
-        <div class="col-lg-3 col-lg-offset-1">
+        <div class="col-lg-3">
             <div class="spacing"></div>
             <h4>Details</h4>
             <div class="hline"></div>
-            <!--<p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>-->
             <p><b>Year:</b> {{ page.date | date: "%Y" }}</p>
             <p><b>Media:</b> {{ page.categories }}</p>
         </div>
     </div>
     <br><br>
 </div>
-	 
+

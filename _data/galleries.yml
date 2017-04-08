@@ -1,0 +1,30 @@
+- id: bfa
+  title: Struggles, Hopes, and Blue Skies
+  imagefolder: /assets/img/project/bfa
+  images:
+  - name: 1_whale.jpeg
+    thumb: 1_whale.jpeg
+    text: I offer you a wider ocean</h5> <br> 
+      <font size='1'>6' x 15' Oil on Canvas, 2016 </font> 
+  - name: 2_whale_detail.jpeg
+    thumb: 2_whale_detail.jpeg
+    text: I offer you a wider ocean (detail) 
+  - name: 3_whale_detail.jpeg
+    thumb: 3_whale_detail.jpeg
+    text: I offer you a wider ocean (detail) 
+  - name: 4_shoes.jpeg 
+    thumb: 4_shoes.jpeg
+    text: Did they give you shoes for the photo shoot? <br> 
+      <font size='1'>Monotype, water color and acrylic on Yupo, 26 &quot; x 40 &quot;, 2016 </font>
+  - name: 5_jade_man.jpeg
+    thumb: 5_jade_man.jpeg
+    text: Why would you be willing to search for the remaining jade before landslide? <br>
+      <font size='1'>Watercolor and Gouache on Yupo, 26 &quot; x 40 &quot;, 2016 </font>
+  - name: 6_death_row.jpeg
+    thumb: 6_death_row.jpeg
+    text: I offer you a starry night and green grass on your way to execution. <br>
+      <font size='1'>Water color and Gouache on Yupo, 40 &quot; x 26 &quot;, 2016</font>
+  - name: 7_killer.jpeg
+    thumb: 7_killer.jpeg
+    text: What were your skies like during these days of hiding after killing them? <br>
+      <font size='1'>Water color and Gouache on Yupo, 26 &quot; x 36 &quot;, 2016</font>

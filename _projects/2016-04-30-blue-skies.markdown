@@ -3,12 +3,28 @@ layout: project
 title:  "Struggles, Hopes, and Blue Skies"
 author: Chen Peng
 categories:
-    - Oil on Canvas;
-    - Watercolor on Yupo
+    - Oil on Canvas; Watercolor on Yupo
 img: portfolio_01.jpg
-tagged: BFA
+galleryid: bfa
 ---
-<img src="{{ "/assets/img/browser.png" | prepend: site.baseurl }}" class="img-responsive">
+
+<link rel="stylesheet" href="/assets/css/lightbox.min.css">
+
+<div class="grid">
+<div class="grid-sizer"></div>
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == page.galleryid %}
+  {% for image in gallery.images %}
+  <div class="grid-item">
+  <a href="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="gallery.id"
+  data-title="{{ image.text }}">
+    <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}"> 
+  </a>
+  </div>
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+</div>
 
 ## Artist Statement
 
@@ -41,4 +57,5 @@ the viewer to look at my paintings as my ongoing search for the truth instead of
 immediate answers. I hope to very indirectly plant the seed of some kind of
 common understanding of the complexity of life and the need to not take things
 at face value.
+
 

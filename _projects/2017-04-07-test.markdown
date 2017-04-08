@@ -1,0 +1,26 @@
+---
+layout: project
+title:  "Struggles, Hopes, and Blue Skies"
+author: Chen Peng
+categories:
+tagged: BFA
+---
+
+
+<link rel="stylesheet" href="/assets/css/lightbox.min.css">
+
+<div>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
+    </div>
+
+{% for image in site.static_files %}
+  {% if image.path contains 'assets/img/project/bfa' %}
+  <a href="{{ image.path | prepend: site.baseurl }}" data-lightbox="bfa"
+  data-title="bfa">
+    <img src="{{ image.path | prepend: site.baseurl }}"> 
+  </a>
+  {% endif %}
+{% endfor %}
+
+  <script src="/assets/js/lightbox-plus-jquery.min.js"></script>
