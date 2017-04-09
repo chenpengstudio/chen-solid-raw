@@ -10,6 +10,8 @@
 ################################################################# */ 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400,700|IM+Fell+English+SC|IM+Fell+English:400,400i);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
@@ -25,25 +27,25 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	color: {{ site.colors.secondary }};
-	font-family: 'Lato', sans-serif;
+	color: {{ black }};
+	font-family: 'Alegreya', serif;
 	font-weight: 400;
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'IM Fell English', serif;
 	font-weight: 700;
 }
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 14px; 
-	line-height: 24px;
-	color: {{ site.colors.secondary }}; 
 	margin-top: 10px; 
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+	font-size: 16px; 
+	line-height: 24px;
+	color: black; 
 }
 
 img {
@@ -103,48 +105,52 @@ a:focus {
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+	font-family: 'IM Fell English SC', serif;
+	font-weight: 700;
+	font-size: 28px;
+}
+:lang(zh-Hant) {
+  font-family: 'cwTeXMing', serif;
 }
 
 .navbar-header .navbar-brand {
-	color: white;
+	color: black;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	color: black;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.link_hover }};
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.link_hover }};
 	background-color: transparent;
 }
 
 .navbar-default {
-	background-color: {{ site.colors.secondary }};
-	border-color: transparent;
+	background-color:  white;
+	border-color: white;
 }
 
 .dropdown-menu {
-	background: {{ site.colors.secondary }};
+	background: white;
 }
 
 .dropdown-menu > li > a {
-	color: white;
+	color: black;
 	font-weight: 700;
 	font-size: 12px;
 }
 
 .btn-theme {
   color: #fff;
-  background-color: {{ site.colors.secondary }};
-  border-color: {{ site.colors.secondary }};
+  background-color: #000;
+  border-color: #000;
   margin: 4px;
 }
 .btn-theme:hover,
@@ -153,15 +159,15 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+  background-color: #222222 ;
+  border-color: #222222 ;
 }
 
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
 	color: #ffffff;
-	background-color: #222222;
+	background-coor: #222222;
 	border-color: #ffffff;
 }
 .dmbutton {
@@ -204,7 +210,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid {{ site.colors.secondary }};
+	border-bottom: 2px solid black; 
 }
 
 .hline-w {
@@ -216,7 +222,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #e2e2f2;
+	background-color: #ffffff;
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -224,7 +230,7 @@ a:focus {
 }
 
 #headerwrap h3, h5 {
-	color: #01b2fe;
+	color: #000000;
 	font-weight: 400;
 }
 
@@ -292,8 +298,8 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
+	background-color:{{ site.colors.secondary }};
+	background-color:rgba({{ site.colors.secondary_rgb }},.9);
 	text-align:center;
 }
 
@@ -358,7 +364,7 @@ a:focus {
 #footerwrap {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: {{ site.colors.secondary }};
+	background: {{ #ffffff }};
 }
 
 #footerwrap p {
@@ -376,7 +382,7 @@ a:focus {
 }
 
 #footerwrap i:hover {
-	color: {{ site.colors.primary }}
+	color: {{ site.colors.link }}
 }
 
 /*	################################################################
@@ -385,15 +391,15 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: {{ site.colors.primary }};
-	margin-top: 60px;
-	margin-bottom: 60px;
+	background: #ffffff;
+	margin-top: 40px;
+	margin-bottom: 5px;
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 5px;
 }
 
 #blue h3 {
-	color: white;
+	color: #222222;
 	margin-left: 15px;
 }
 
@@ -447,7 +453,7 @@ csmall {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 400px;
+	min-height: 100px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -484,7 +490,7 @@ csmall {
 	}
 	
 .popular-posts li em {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Alegreya', serif;
 	font-size: 12px;
 	color: #b3b3b3
 	}
@@ -526,4 +532,9 @@ a.anchor{
   content: '';
   display: block;
   clear: both;
+}
+td {
+  font-family: 'Alegreya', serif;
+  font-size: 16px;
+  min-width: 16px;
 }

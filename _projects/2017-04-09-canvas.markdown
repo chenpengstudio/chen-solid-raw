@@ -1,0 +1,24 @@
+---
+layout: project
+title:  "Works on Canvas"
+author: Chen Peng
+img: portfolio_02.jpg
+galleryid: canvas
+---
+
+<div class="grid">
+<div class="grid-sizer"></div>
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == page.galleryid %}
+  {% for image in gallery.images %}
+  <div class="grid-item">
+  <a href="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="gallery.id"
+  data-title="{{ image.text }}">
+    <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}"> 
+  </a>
+  </div>
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+</div>
+
