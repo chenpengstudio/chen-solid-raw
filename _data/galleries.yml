@@ -35,6 +35,14 @@
   - name:  10-for-sale.jpg
     thumb: 10-for-sale.jpg-tb.jpg
     text:  FOR SALE
+- id: canvas
+  title: Mexico Revisited
+  imagefolder: /assets/img/project/mexico
+  images:
+  - name:  
+    thumb: 
+    text:  
+
   #- name: 1_whale.jpeg
     #thumb: 1_whale.jpeg
     #text: I offer you a wider ocean</h5> <br> 
