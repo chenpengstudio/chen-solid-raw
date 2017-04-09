@@ -35,10 +35,10 @@ collections:
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: envelope
+  - title: envelope-o
     url: mailto:studiochenpeng@gmail.com
   - title: facebook
-    url: https://www.facebook.com/jane.peng.507
+    url: https://www.facebook.com/chennpenguinn
   - title: instagram
     url: https://www.instagram.com/chennpenguinn
 
