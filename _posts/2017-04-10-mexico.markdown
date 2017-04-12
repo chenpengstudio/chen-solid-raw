@@ -3,7 +3,7 @@ layout: project
 title:  "Work on Canvas"
 author: Chen Peng
 img: portfolio_01.jpg
-galleryid: bfa
+galleryid: 
 ---
 
 
