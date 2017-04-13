@@ -1,0 +1,59 @@
+---
+layout: project
+title:  ""
+author: Chen Peng
+img: tb-mexico.jpg
+galleryid: mexico 
+---
+
+<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1" style='text-align: justify;'>
+<div class="grid">
+<div class="grid-sizer"></div>
+{% for gallery in site.data.galleries %}
+  {% if gallery.id == page.galleryid %}
+  {% for image in gallery.images %}
+  <div class="grid-item">
+  <a href="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="gallery.id"
+  data-title="{{ image.text }}">
+    <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.thumb }}"> 
+  </a>
+  </div>
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+</div>
+
+<br>
+<br>
+
+<h3>重遊墨西哥—旅行肖像計畫</h3>
+
+<p>有機會踏上陌生的國土，是一種莫大的幸運。像接受禮物一般，我們開闊眼界，收獲當地的人情與文化。滿載而歸的不僅是色彩繽紛的照片、玲瑯滿目的紀念品，還有說不完的故事、做不完的夢。只是，無論這片土地、這些人給予我們什麼，我們走了也就走了，而他們的日子照舊。</p>
+
+<p>四年前，我第一次去墨西哥，就愛上了那裡的色彩、文化、與人，收穫滿滿地歸來，念念不忘。我一直在想，是不是我也能夠給這片土地、這些人一些禮物，作為報答。「重遊墨西哥— 旅行肖像計畫」就是一個回贈禮物的計畫。我在2015年末，前往墨西哥三週，沿著四年前的老路徑從墨西哥城、普埃普拉，一路到瓦哈卡、聖克里斯托瓦爾-德拉斯卡薩斯、猶加敦半島。在城市或小鎮的街道上、公園裡、教堂前的廣場上、或是咖啡店及路邊攤上，我為當地人（也有幾個旅行者）畫水彩肖像。我告訴他們，如果他們喜歡，就可以留下，當作是禮物。</p>
+
+<p>感謝克里夫蘭藝術學院油畫系提供的Ted Frost Scholarship for Travel，使這個計畫可以實現。</p>
+
+
+<p>Being able to travel to a foreign land is a precious gift. It opens our eyes,
+and offers us the kindness from the locals. We bring home beautiful photos,
+adorable souvenirs, wonderful stories, and colorful dreams. However, while we
+leave with hands and hearts full, their lives remain the same.</p>
+
+<p>Four years ago, I traveled to Mexico for a month. I fell in love with the
+color, culture, and people there, and the memories accompanied me back home
+along with all those gifts from the Mexicans. I was always thinking, whether
+there would be a way for me to give something back. “Mexico Revisited-A
+Traveling Portrait Project” is such a project about giving gifts to the people
+and land in Mexico.  I revisited Mexico in the winter of 2015 for three weeks,
+traveling along my previous path from Mexico City, Puebla, Cuetzalan, Oaxaca,
+San Cristóbal de Las Casas, and all the way to Yucatán Peninsula. During the
+trip, I asked locals and a few travelers if they would like their portraits
+drawn for free. I encountered my “models” down the streets, at parks, at plazas
+in front of churches, at coffee shops, or at their vendors. Sometimes I was also
+asked to draw portraits for themselves or their families. For all the original
+portraits, I asked them keep it as a gift, if they like it. </p>
+
+<p>Thanks to Ted Frost '88 Scholarship for Travel from the Painting Department
+at Cleveland Institute of Art, so that I am able to fulfill this project.</p>
+</div>

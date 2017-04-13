@@ -4,43 +4,157 @@
   images:
   - name:  00-for-sale.jpg
     thumb: 00-for-sale-tb.jpg
-    text:  For Sale, 43 x 43 in, oil on canvas, 2016
+    text:  For Sale <br> 43 x 43 in, oil on canvas, 2016
   - name:  01-old-lady.jpg
     thumb: 01-old-lady-tb.jpg
-    text:  I wish you love, 37 x 67 in, Oil on Canvas, 2014. Collection of Baker Hostetler.
+    text:  I wish you love <br> 37 x 67 in, Oil on Canvas, 2014. Collection of Baker Hostetler.
   - name:  02-sheep.jpg
     thumb: 02-sheep-tb.jpg
-    text:  Sweaters, 44 x 54 in, Oil and Acrylic on Canvas, 2015.
+    text:  Sweaters <br> 44 x 54 in, Oil and Acrylic on Canvas, 2015.
   - name:  03-now-and-whats-next.jpg
     thumb: 03-now-and-whats-next-tb.jpg
-    text:  What's next? 44 x 54 in, Oil on Canvas, 2015. 
+    text:  What's next? <br> 44 x 54 in, Oil on Canvas, 2015. 
   - name:  03-I-wish-you-an-ocean.jpg
     thumb: 03-I-wish-you-an-ocean-tb.jpg
-    text:  I wish you an ocean, 48 x 72 in, Oil and Acrylic on Canvas, 2014. Collection of The MetroHealth System.
+    text:  I wish you an ocean <br> 48 x 72 in, Oil and Acrylic on Canvas, 2014. Collection of The MetroHealth System.
   - name:  04-I-wish-you-a-merry-christmas.jpg
     thumb: 04-I-wish-you-a-merry-christmas-tb.jpg
-    text:  I wish you a Merry Christmas, 27 x 33 in, Oil on Canvas, 2015. Private Collection.
+    text:  I wish you a Merry Christmas <br> 27 x 33 in, Oil on Canvas, 2015. Private Collection.
   - name:  05-green-afternoon-dog.jpg
     thumb: 05-green-afternoon-dog-tb.jpg
-    text:  A green afternoon with my dog, 48 x 48 in, Oil on Canvas, 2015. Collection of Southwest General Health Center.
+    text:  A green afternoon with my dog <br> 48 x 48 in, Oil on Canvas, 2015. Collection of Southwest General Health Center.
   - name:  06-mane.jpg
     thumb: 06-mane-tb.jpg
-    text:  I wish you friends, 33 x 43 in, Oil and Acrylic on Canvas, 2014.
+    text:  I wish you friends <br> 33 x 43 in, Oil and Acrylic on Canvas, 2014.
   - name:  07-she-likes-to-be-surrounded.jpg
     thumb: 07-she-likes-to-be-surrounded-tb.jpg
-    text:  Oh Look!, 43x 43 in, Oil on Canvas, 2015.
+    text:  Oh Look! <br> 43x 43 in, Oil on Canvas, 2015.
   - name:  09-cookie.jpg
     thumb: 09-cookie-tb.jpg
-    text:  I Wish it were Cookies that Exploded, 30 x 20 in, Oil on Canvas, 2015.
+    text:  I Wish it were Cookies that Exploded <br> 30 x 20 in, Oil on Canvas, 2015.
   - name:  10-old-man.jpg
     thumb: 10-old-man-tb.jpg
-    text:  I wish you home, 48 x 72 in, Oil on Clear Vinyl, 2014.
+    text:  I wish you home <br> 48 x 72 in, Oil on Clear Vinyl, 2014.
 - id: mexico
-  title: Mexico Revisited
+  title: 
   imagefolder: /assets/img/project/mexico
   images:
-  - name:  
-    thumb: 
+  - name:  1.jpg
+    thumb: tb-1.jpg
+    text:  Tamales, Beautiful Heart - San Cris. <br> Ink and Watercolor on Paper, 8.5 x 11.5 in, 2015 
+  - name:  2.jpg
+    thumb: tb-2.jpg
+    text:  Princesses - Oaxaca <br> Ink and Watercolor on Paper, 8.5 x 11.5 in, 2015 
+  - name:  3.jpg
+    thumb: tb-3.jpg
+    text:  
+  - name:  4.jpg
+    thumb: tb-4.jpg
+    text:  
+  - name:  5.jpg
+    thumb: tb-5.jpg
+    text:  
+  - name:  6.jpg
+    thumb: tb-6.jpg
+    text:  
+  - name:  7.jpg
+    thumb: tb-7.jpg
+    text:  
+  - name:  8.jpg
+    thumb: tb-8.jpg
+    text:  
+  - name:  9.jpg
+    thumb: tb-9.jpg
+    text:  
+  - name:  10.jpg
+    thumb: tb-10.jpg
+    text:  
+  - name:  11.jpg
+    thumb: tb-11.jpg
+    text:  
+  - name:  12.jpg
+    thumb: tb-12.jpg
+    text:  
+  - name:  13.jpg
+    thumb: tb-13.jpg
+    text:  
+  - name:  14.jpg
+    thumb: tb-14.jpg
+    text:  
+  - name:  15.jpg
+    thumb: tb-15.jpg
+    text:  
+  - name:  16.jpg
+    thumb: tb-16.jpg
+    text:  
+  - name:  17.jpg
+    thumb: tb-17.jpg
+    text:  
+  - name:  18.jpg
+    thumb: tb-18.jpg
+    text:  
+  - name:  19.jpg
+    thumb: tb-19.jpg
+    text:  
+  - name:  20.jpg
+    thumb: tb-20.jpg
+    text:  
+  - name:  21.jpg
+    thumb: tb-21.jpg
+    text:  
+  - name:  22.jpg
+    thumb: tb-22.jpg
+    text:  
+  - name:  23.jpg
+    thumb: tb-23.jpg
+    text:  
+  - name:  24.jpg
+    thumb: tb-24.jpg
+    text:  
+  - name:  25.jpg
+    thumb: tb-25.jpg
+    text:  
+  - name:  26.jpg
+    thumb: tb-26.jpg
+    text:  
+  - name:  27.jpg
+    thumb: tb-27.jpg
+    text:  
+  - name:  28.jpg
+    thumb: tb-28.jpg
+    text:  
+  - name:  29.jpg
+    thumb: tb-29.jpg
+    text:  
+  - name:  30.jpg
+    thumb: tb-30.jpg
+    text:  
+  - name:  31.jpg
+    thumb: tb-31.jpg
+    text:  
+  - name:  32.jpg
+    thumb: tb-32.jpg
+    text:  
+  - name:  33.jpg
+    thumb: tb-33.jpg
+    text:  
+  - name:  34.jpg
+    thumb: tb-34.jpg
+    text:  
+  - name:  35.jpg
+    thumb: tb-35.jpg
+    text:  
+  - name:  36.jpg
+    thumb: tb-36.jpg
+    text:  
+  - name:  37.jpg
+    thumb: tb-37.jpg
+    text:  
+  - name:  38.jpg
+    thumb: tb-38.jpg
+    text:  
+  - name:  39.jpg
+    thumb: tb-39.jpg
     text:  
 - id: yupo
   title: 
@@ -48,43 +162,16 @@
   images:
   - name: Reunion-in-Blue.jpg 
     thumb: tb-Reunion-in-Blue.jpg
-    text: Reunion in Blue, 26 x 40 in, Watercolor and gouache on yupo, 2017
+    text: Reunion in Blue <br> 26 x 40 in, Watercolor and gouache on yupo, 2017
   - name: Guest-in-the-Kitchen.jpg
     thumb: tb-Guest-in-the-Kitchen.jpg
-    text: Guest in the Kitchen, 26 x 40 in, Watercolor and gouache on yupo, 2016
+    text: Guest in the Kitchen <br> 26 x 40 in, Watercolor and gouache on yupo, 2016
   - name: Kevin-Says-Hi.jpg
     thumb: tb-Kevin-Says-Hi.jpg
-    text: Kevin says Hi, 53 x 30 in, Watercolor on yupo, 2017 
+    text: Kevin says Hi <br> 53 x 30 in, Watercolor on yupo, 2017 
   - name: Marching-in-Playground.jpg
     thumb: tb-Marching-in-Playground.jpg
-    text: Marching in Playground, 26 x 40 in, Watercolor and gouache on yupo, 2017 
+    text: Marching in Playground <br> 26 x 40 in, Watercolor and gouache on yupo, 2017 
   - name: Your-sky.jpg
     thumb: tb-Your-sky.jpg
-    text: What were your skies like after killing your friend? 26 x 36 in, Watercolor on yupo, 2016 
-
-  #- name: 1_whale.jpeg
-    #thumb: 1_whale.jpeg
-    #text: I offer you a wider ocean</h5> <br> 
-      #<font size='1'>6' x 15' Oil on Canvas, 2016 </font> 
-  #- name: 2_whale_detail.jpeg
-    #thumb: 2_whale_detail.jpeg
-    #text: I offer you a wider ocean (detail) 
-  #- name: 3_whale_detail.jpeg
-    #thumb: 3_whale_detail.jpeg
-    #text: I offer you a wider ocean (detail) 
-  #- name: 4_shoes.jpeg 
-    #thumb: 4_shoes.jpeg
-    #text: Did they give you shoes for the photo shoot? <br> 
-      #<font size='1'>Monotype, water color and acrylic on Yupo, 26 &quot; x 40 &quot;, 2016 </font>
-  #- name: 5_jade_man.jpeg
-    #thumb: 5_jade_man.jpeg
-    #text: Why would you be willing to search for the remaining jade before landslide? <br>
-      #<font size='1'>Watercolor and Gouache on Yupo, 26 &quot; x 40 &quot;, 2016 </font>
-  #- name: 6_death_row.jpeg
-    #thumb: 6_death_row.jpeg
-    #text: I offer you a starry night and green grass on your way to execution. <br>
-      #<font size='1'>Water color and Gouache on Yupo, 40 &quot; x 26 &quot;, 2016</font>
-  #- name: 7_killer.jpeg
-    #thumb: 7_killer.jpeg
-    #text: What were your skies like during these days of hiding after killing them? <br>
-      #<font size='1'>Water color and Gouache on Yupo, 26 &quot; x 36 &quot;, 2016</font>
+    text: What were your skies like after killing your friend? <br> 26 x 36 in, Watercolor on yupo, 2016 
