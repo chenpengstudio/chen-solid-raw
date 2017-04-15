@@ -17,6 +17,8 @@ colors:  #in hex code if not noted else
   primary_rgb: "0,0,0"
   secondary: "#52a53d" 
   secondary_rgb: "82,165,61" 
+  tertiary: "#ffffff" 
+  tertiary_rgb: "255,255,255" 
   link: "#222222"
   link_hover: "#999999"
   footer_heading: "#999999"

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  ""
+title:  "Work on Canvas"
 author: Chen Peng
 img: 01-old-lady-tb.jpg
 galleryid: canvas

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  ""
+title:  "Work on Yupo"
 author: Chen Peng
 img: tb-Reunion-in-Blue.jpg
 galleryid: yupo 

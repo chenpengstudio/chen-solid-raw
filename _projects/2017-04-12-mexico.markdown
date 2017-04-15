@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  ""
+title:  "A Revisit to Mexico"
 author: Chen Peng
 img: tb-mexico.jpg
 galleryid: mexico 
