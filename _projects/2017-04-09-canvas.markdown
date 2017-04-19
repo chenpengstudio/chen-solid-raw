@@ -2,7 +2,7 @@
 layout: project
 title:  "Work on Canvas"
 author: Chen Peng
-img: 01-old-lady-tb.jpg
+img: tb-canvas.jpg
 galleryid: canvas
 ---
 

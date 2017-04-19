@@ -2,7 +2,7 @@
 layout: project
 title:  "Work on Yupo"
 author: Chen Peng
-img: tb-Reunion-in-Blue.jpg
+img: tb-yupo.jpg
 galleryid: yupo 
 ---
 

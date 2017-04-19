@@ -160,6 +160,9 @@
   title: 
   imagefolder: /assets/img/project/yupo
   images:
+  - name: Pink.jpg 
+    thumb: tb-Pink.jpg
+    text: Pink <br> 40 x 52 in, Watercolor on yupo, 2017
   - name: Reunion-in-Blue.jpg 
     thumb: tb-Reunion-in-Blue.jpg
     text: Reunion in Blue <br> 26 x 40 in, Watercolor and gouache on yupo, 2017
